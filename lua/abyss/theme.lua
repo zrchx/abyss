@@ -1,4 +1,4 @@
-local p = require('nymph.palette')
+local p = require('abyss.palette')
 local M = {}
 
 function M.set_colors()
