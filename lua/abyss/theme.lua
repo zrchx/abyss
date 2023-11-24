@@ -1,8 +1,6 @@
 local p = require('abyss.palette')
 local M = {}
-
 function M.set_colors()
-
 	local theme = {
 		-- base highlights
 		Normal = { fg = p.fg, bg = p.bg },
@@ -229,5 +227,4 @@ function M.set_colors()
 
 	return theme
 end
-
 return M
