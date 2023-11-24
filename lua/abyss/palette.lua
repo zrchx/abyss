@@ -2,8 +2,8 @@ local palette = {
   -- Base
   bg = "#1A1A1A",
   bg_alt = "#2A2A2A",
-  fg_alt = "#3B3B3B",
-  fg = "#6B6B6B",
+  fg_alt = "#8F8F8F",
+  fg = "#ADADAD",
   -- Colors
   red = "#eaaeae",
   orange = "#7fa2bd",
