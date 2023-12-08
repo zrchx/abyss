@@ -110,9 +110,22 @@ function M.set_colors()
 		Ignore = { fg = p.fg },
 		Underlined = { underline = true },
 
-		-- bufferline.nvim: https://github.com/akinsho/bufferline.nvim
-		BufferLineFill = { fg = p.bg, bg = p.bg },
-		BufferLineIndicatorSelected = { fg = p.cyan },
+    -- Buffline
+    BufflineBufOnActive = { fg = p.blue, bg = p.bg },
+    BufflineKillBuff = { fg = p.red, bg = p.bg },
+    BuffLineBufOnModified = { fg = p.yellow, bg = p.bg },
+    BuffLineBufOnClose = {},
+    BuffLineBufOffClose = {},
+    BufflineEmptyColor = {},
+
+    -- StatusLine
+    StalineNormalMode = { fg = p.bg, bg = p.fg },
+    StalineInsertMode = { fg = p.green, bg = p.fg },
+    StalineReplaceMode = { fg = p.red, bg = p.fg },
+    StalineVisualMode = { fg = p.blue, bg = p.fg },
+    StalineTerminalMode = { fg = p.yellow, bg = p.fg },
+    StalineConfirmMode = { fg = p.yellow, bg = p.fg },
+    StalineCommandMode = { fg = p.green, bg = p.fg },
 
 		-- Diagnostic
 		DiagnosticError = { fg = p.red },

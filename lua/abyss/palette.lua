@@ -1,15 +1,15 @@
 local palette = {
   -- Base
   bg = "#1A1A1A",
-  bg_alt = "#2A2A2A",
-  fg_alt = "#8F8F8F",
-  fg = "#ADADAD",
+  bg_alt = "#3a3a3a",
+  fg_alt = "#bdbdbd",
+  fg = "#ebebeb",
   -- Colors
-  red = "#eaaeae",
+  red = "#d99e9e",
   orange = "#7fa2bd",
-  green = "#67879e",
+  green = "#a7dbdb",
   blue = "#a3c5e0",
-  magenta = "#a3c5e0",
+  magenta = "#b6b8e0",
   cyan = "#67879e",
   yellow = "#7fa2bd",
 
