@@ -134,7 +134,7 @@ function M.set_colors()
 
     StalineFilename = { fg = p.bg_alt, bg = p.fg_alt },
     StalineProgress = { fg = p.bg, bg = p.fg },
-    StalineBranch = { fg = p.fg_alt, bg = p.bg },
+    StalineBranch = { fg = p.fg_alt, bg = p.bg_alt },
 
     StalineEmptySpace = { fg = p.bg, bg = p.bg },
 
@@ -143,7 +143,7 @@ function M.set_colors()
     StalineLspHints = { fg = p.cyan, bg = p.bg },
     StalineLspWarning = { fg = p.yellow, bg = p.bg },
 
-    StalineLspName = { fg = p.green, bg = p.bg },
+    StalineLspName = { fg = p.bg_alt, bg = p.fg_alt },
 
     StalineDiffAdd = { fg = p.green, bg = p.bg_alt },
     StalineDiffChange = { fg = p.yellow, bg = p.bg_alt },
