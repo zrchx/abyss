@@ -113,15 +113,15 @@ function M.set_colors()
     -- Buffline
     BufflineBufOnActive = { fg = p.blue, bg = p.bg },
     BufflineBufOnInactive = { fg = p.fg_alt, bg = p.bg},
-    BuffLineBufOnModified = { fg = p.yellow, bg = p.bg },
-    BuffLineBufOffModified = { fg = p.fg, bg = p.bg},
+    BuffLineBufOnModified = { fg = p.yellow, bg = p.bg_alt },
+    BuffLineBufOffModified = { fg = p.fg, bg = p.bg },
     BuffLineBufOnClose = { fg = p.red, bg = p.bg_alt },
-    BuffLineBufOffClose = { fg = p.fg, bg = p.bg },
+    BuffLineBufOffClose = { fg = p.red, bg = p.bg },
     BuffLineTree = { fg = p.fg_alt, bg = p.bg },
     BuffLineEmpty = { fg = p.bg, bg = p.bg },
     BuffLineEmptyColor = { fg = p.bg, bg = p.bg },
-    BuffLineButton = { fg = p.yellow, bg = p.bg_alt },
-    BuffLineCloseButton = { fg = p.green, bg = p.bg_alt },
+    BuffLineButton = { fg = p.red, bg = p.bg_alt },
+    BuffLineCloseButton = { fg = p.red, bg = p.bg_alt },
 
     -- StatusLine
     StalineNormalMode = { fg = p.bg, bg = p.fg },
@@ -132,29 +132,29 @@ function M.set_colors()
     StalineConfirmMode = { fg = p.bg, bg = p.yellow },
     StalineCommandMode = { fg = p.bg, bg = p.green },
 
-    StalineFilename = { fg = p.fg_alt, bg = p.bg },
-    StalineProgress = { fg = p.fg_alt, bg = p.bg },
+    StalineFilename = { fg = p.bg_alt, bg = p.fg_alt },
+    StalineProgress = { fg = p.bg, bg = p.fg },
     StalineBranch = { fg = p.fg_alt, bg = p.bg },
 
     StalineEmptySpace = { fg = p.bg, bg = p.bg },
 
-    StalineLspError = { fg = p.bg, bg = p.red },
-    StalineLspInfo = { fg = p.bg, bg = p.green },
-    StalineLspHints = { fg = p.bg, bg = p.cyan },
-    StalineLspWarning = { fg = p.bg, bg = p.yellow },
+    StalineLspError = { fg = p.red, bg = p.bg },
+    StalineLspInfo = { fg = p.green, bg = p.bg },
+    StalineLspHints = { fg = p.cyan, bg = p.bg },
+    StalineLspWarning = { fg = p.yellow, bg = p.bg },
 
-    StalineLspName = { fg = p.bg, bg = p.green },
+    StalineLspName = { fg = p.green, bg = p.bg },
 
-    StalineDiffAdd = { fg = p.bg, bg = p.green },
-    StalineDiffChange = { fg = p.bg, bg = p.yellow },
-    StalineDiffRemove = { fg = p.bg, bg = p.red },
+    StalineDiffAdd = { fg = p.green, bg = p.bg_alt },
+    StalineDiffChange = { fg = p.yellow, bg = p.bg_alt },
+    StalineDiffRemove = { fg = p.red, bg = p.bg_alt },
 
     -- Alpha
     AlphaHeader = { fg = p.blue, bg = p.bg },
     AlphaLabel = { fg = p.red, bg = p.bg },
     AlphaIcon = { fg = p.blue, bg = p.bg },
     AlphaKeyPrefix = { fg = p.fg_alt, bg = p.bg },
-    AlphaMessage = { fg = p.fg, bg = p.bg },
+    AlphaMessage = { fg = p.fg_alt, bg = p.bg },
     AlphaFooter = { fg = p.fg_alt, bg = p.bg },
 
 		-- Diagnostic
